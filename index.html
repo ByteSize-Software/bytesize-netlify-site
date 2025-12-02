@@ -1,444 +1,205 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ByteSize, LLC - Your Local Technology Partner in Memphis</title>
-    <meta name="description" content="Your trusted local technology partner in Memphis. IT support, custom software development, and technology solutions for small businesses. Call (901) 603-5980.">
-    <meta name="keywords" content="IT support Memphis, software development Memphis, technology partner Memphis, MSP services Memphis, custom software Memphis">
-    <meta name="author" content="Cannon Moyer, ByteSize LLC">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-domain.netlify.app/">
-    <meta property="og:title" content="ByteSize, LLC - Your Local Technology Partner in Memphis">
-    <meta property="og:description" content="Your trusted local technology partner in Memphis. IT support, custom software development, and technology solutions for small businesses.">
-    <meta property="og:image" content="https://your-domain.netlify.app/logo-lg.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://your-domain.netlify.app/">
-    <meta property="twitter:title" content="ByteSize, LLC - Your Local Technology Partner in Memphis">
-    <meta property="twitter:description" content="Your trusted local technology partner in Memphis. IT support, custom software development, and technology solutions for small businesses.">
-    <meta property="twitter:image" content="https://your-domain.netlify.app/logo-lg.png">
-    
+    <title>ByteSize - Custom Software Solutions</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="canonical" href="https://your-domain.netlify.app/">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="logo.png" alt="ByteSize, LLC" class="logo-img">
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <div class="container">
+            <div class="nav-content">
+                <img src="logo.png" alt="ByteSize Logo" class="logo">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#platform">Platform</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
+    <section id="home" class="hero">
+        <div class="hero-background-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Your local technology partner in Memphis</h1>
-                    <p>Whether you need reliable IT support to keep your business running or custom software to help you compete, I'm your local expert who understands both technology and business.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Connect With Us</a>
-                        <a href="#services" class="btn btn-secondary">How I Help</a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="tech-flow">
-                        <div class="tech-orb large">
-                            <i class="fas fa-laptop"></i>
-                            <span>IT Support</span>
-                        </div>
-                        <div class="tech-orb medium">
-                            <i class="fas fa-code"></i>
-                            <span>Web & Apps</span>
-                        </div>
-                        <div class="tech-orb small">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>Security</span>
-                        </div>
-                        <div class="tech-orb medium">
-                            <i class="fas fa-cloud"></i>
-                            <span>Cloud Setup</span>
-                        </div>
-                        <div class="tech-orb small">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span>Mobile Apps</span>
-                        </div>
-                        <div class="tech-orb large">
-                            <i class="fas fa-handshake"></i>
-                            <span>Local Help</span>
-                        </div>
-                    </div>
-                    
+                <h1 class="hero-title">
+                    Custom Software Solutions<br>
+                    <span class="highlight">Built for Your <span class="rotating-text"></span> Business</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Stop paying thousands for software you can't customize. Get a platform that adapts to your business needs, not the other way around.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#platform" class="btn btn-secondary">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Value Proposition -->
+    <section class="value-prop">
         <div class="container">
-            <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Comprehensive technology solutions to keep your business running smoothly and growing efficiently</p>
-            </div>
+            <h2 class="section-title">The Right Investment, Not Just the Right Price</h2>
             
-            <!-- Service Categories Overview -->
-            <div class="service-categories">
-                <div class="category-pill msp-category">
-                    <div class="pill-content">
-                        <div class="pill-icon">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                        <div class="pill-text">
-                            <h3>IT Support & Management</h3>
-                            <p>Keep your technology running smoothly</p>
-                            <div class="pill-features">
-                                <span class="feature-dot"></span>
-                                <span class="feature-dot"></span>
-                                <span class="feature-dot"></span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="value-icon">🏗️</div>
+                    <h3>Built on Our Foundation</h3>
+                    <p>Start with our base platform including CRM, job scheduling, invoicing, and employee management. Add, remove, and customize features to optimize for your specific business needs.</p>
                 </div>
                 
-                <div class="category-pill dev-category">
-                    <div class="pill-content">
-                        <div class="pill-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="pill-text">
-                            <h3>Web & App Development</h3>
-                            <p>Custom websites and applications for your business</p>
-                            <div class="pill-features">
-                                <span class="feature-dot"></span>
-                                <span class="feature-dot"></span>
-                                <span class="feature-dot"></span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="value-card">
+                    <div class="value-icon">🤖</div>
+                    <h3>AI-Powered Efficiency</h3>
+                    <p>AI is making custom software attainable for small and medium businesses. We leverage the latest technology to build systems that grow with your business for years to come.</p>
                 </div>
-            </div>
-            
-            <!-- Detailed Services Grid -->
-            <div class="services-detailed">
-                <!-- MSP Services -->
-                <div class="service-group">
-                    <div class="group-header">
-                        <h3><i class="fas fa-network-wired"></i> IT Support & Management</h3>
-                        <p>Keep your technology infrastructure running smoothly</p>
-                    </div>
-                    <div class="services-grid-detailed">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-desktop"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>IT Support & Help Desk</h4>
-                                <p>24/7 technical support for your team with rapid response times and expert troubleshooting</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Rapid Response</span>
-                                    <span class="benefit">Expert Team</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Cybersecurity</h4>
-                                <p>Comprehensive security solutions including firewalls, antivirus, and 24/7 monitoring</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">24/7 Monitoring</span>
-                                    <span class="benefit">Threat Protection</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-cloud"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Cloud Services</h4>
-                                <p>Cloud migration, management, and optimization for better scalability and cost efficiency</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Cost Optimization</span>
-                                    <span class="benefit">Easy Migration</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Backup & Recovery</h4>
-                                <p>Automated backups and disaster recovery planning to protect your critical data</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Automated Backups</span>
-                                    <span class="benefit">Quick Recovery</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Network Monitoring</h4>
-                                <p>Proactive monitoring and maintenance to prevent issues before they impact your business</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Proactive Alerts</span>
-                                    <span class="benefit">Preventive Care</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>User Management</h4>
-                                <p>Active Directory, email setup, and comprehensive user account management</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Centralized Control</span>
-                                    <span class="benefit">Easy Setup</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">💎</div>
+                    <h3>Build an Asset, Not a Payment</h3>
+                    <p>Your business-critical software isn't at the mercy of monthly payments. It's your code, built specifically for your business. We maintain it, but you own it.</p>
                 </div>
-
-                <!-- Software Development Services -->
-                <div class="service-group">
-                    <div class="group-header">
-                        <h3><i class="fas fa-code"></i> Web & App Development</h3>
-                        <p>Custom applications that give your business a competitive edge</p>
-                    </div>
-                    <div class="services-grid-detailed">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Web Development</h4>
-                                <p>Custom websites and web applications built with modern technologies and best practices</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Modern Design</span>
-                                    <span class="benefit">Mobile Ready</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Mobile Apps</h4>
-                                <p>iOS and Android applications designed to enhance customer engagement and business efficiency</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Cross Platform</span>
-                                    <span class="benefit">User Focused</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-tv"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>TV Apps</h4>
-                                <p>Smart TV applications for digital signage, entertainment, and business presentations</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Digital Signage</span>
-                                    <span class="benefit">Interactive Content</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-laptop"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Desktop Applications</h4>
-                                <p>Cross-platform desktop software designed to improve productivity and streamline workflows</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Cross Platform</span>
-                                    <span class="benefit">Productivity Focus</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>E-commerce</h4>
-                                <p>Complete online stores with secure payment processing and inventory management</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Secure Payments</span>
-                                    <span class="benefit">Inventory Management</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-tv"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Digital Signage</h4>
-                                <p>Screen Tech solutions for restaurants, churches, and businesses with dynamic content management</p>
-                                <div class="service-benefits">
-                                    <span class="benefit">Dynamic Content</span>
-                                    <span class="benefit">Easy Management</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <h3>Your Competitive Edge</h3>
+                    <p>More than features, this is how you optimize operations, run crews efficiently, streamline back office processes, and unlock revenue streams impossible with off-the-shelf systems.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Platform Section -->
+    <section id="platform" class="platform">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>A Technology Leader in Memphis, TN</h2>
-                    <p>If you live near Memphis, TN, there's a decent chance you've used our software, unknowingly of course! One of our products, Screen Tech, provides digital signage services for many of your favorite local restaurants, churches, and businesses.</p>
+            <div class="platform-content">
+                <div class="platform-text">
+                    <h2 class="section-title">Stop Paying Monthly for Software That Limits Your Growth</h2>
                     
-                    <p>At ByteSize, we're huge proponents of proven software development practices that ensure product sustainability. More often than not, developers take shortcuts that are detrimental to a project's lifespan, which ultimately costs you money. Our purpose is to provide you with quality software and IT services that will allow you to scale and grow your business.</p>
+                    <div class="founder-intro">
+                        <p class="platform-description">
+                            I'm <strong>Cannon</strong>, founder of ByteSize. I've built enterprise software serving thousands of users, but my focus 
+                            is on service businesses like yours: plumbing, HVAC, electrical, and security companies that drive local economies and 
+                            put food on the table for our friends and neighbors. These businesses deserve better tools.
+                        </p>
+                    </div>
                     
-                    <p>Our MSP services provide the stable foundation your business needs, while our custom software development creates the competitive advantages that set you apart. If you're in the unfortunate circumstance of a failing project or struggling with IT issues, we're here to provide advice and solutions.</p>
-                    
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat">
-                            <h3>50+</h3>
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="stat">
-                            <h3>24/7</h3>
-                            <p>IT Support</p>
+                    <div class="problem-section">
+                        <h3>You're Paying Thousands Monthly for Software That Can't Adapt to Your Business</h3>
+                        <p class="platform-description">
+                            Your current software provider built 70% to 80% of what you need, then locked you into a monthly subscription. They won't 
+                            customize it for you. You're forced to conform your business to their software design, sacrificing your ability to optimize 
+                            operations and explore new revenue streams.
+                        </p>
+                        <div class="pain-points">
+                            <p class="pain-point">✗ Can't add features your competitors have</p>
+                            <p class="pain-point">✗ Missing integrations that would save hours weekly</p>
+                            <p class="pain-point">✗ No way to build custom revenue streams</p>
+                            <p class="pain-point">✗ Stuck paying monthly with no ownership</p>
                         </div>
                     </div>
-                </div>
-                <div class="about-image">
-                    <div class="about-graphic">
-                        <i class="fas fa-building"></i>
-                        <i class="fas fa-wifi"></i>
-                        <i class="fas fa-cogs"></i>
+
+                    <div class="solution-section">
+                        <h3>What If Your Software Actually Worked for Your Business?</h3>
+                        <p class="platform-description">
+                            Imagine placing a "Buy Now" button on your website or social media ad. A customer selects an AC tune-up, gets charged 
+                            automatically, sees travel estimates, schedules the call, and your tech 15 minutes away gets notified instantly. 
+                            That's the kind of seamless integration that's impossible with off-the-shelf systems.
+                        </p>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <strong>Own Your Solution</strong>
+                                <p>No more monthly subscription lock-in. You own the code built specifically for your business.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <strong>Unlimited Customization</strong>
+                                <p>Add features, integrations, and revenue streams that off-the-shelf systems can't provide.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <strong>Save Hours Weekly</strong>
+                                <p>Automate processes and eliminate inefficiencies that cost you money every day.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <strong>Grow Without Limits</strong>
+                                <p>Build competitive advantages and revenue streams your competitors can't replicate.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cta-section">
+                        <h3>Ready to See What's Possible?</h3>
+                        <p class="platform-description">
+                            Let's discuss your specific needs and show you how custom software can transform your operations. 
+                            <strong>Book a free consultation</strong> to explore what's possible when your software is built for your business.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn-primary btn-large">Schedule a Free Consultation</a>
+                            <a href="#contact" class="btn btn-secondary btn-large">Get a Custom Quote</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="container">
+            <h2 class="section-title">ByteSize vs. Traditional Platforms</h2>
+            <div class="comparison-grid">
+                <div class="comparison-card traditional">
+                    <h3>Generic Platforms</h3>
+                    <div class="price-label">Fixed Templates</div>
+                    <ul>
+                        <li>Generic features that may not fit</li>
+                        <li>Limited customization options</li>
+                        <li>You adapt to the software</li>
+                        <li>One-size-fits-all approach</li>
+                        <li>Ongoing subscription with limited control</li>
+                    </ul>
+                </div>
+                <div class="comparison-card bytesize">
+                    <h3>ByteSize Solutions</h3>
+                    <div class="price-label">Custom Built</div>
+                    <ul>
+                        <li>100% custom features for your needs</li>
+                        <li>Unlimited customization and flexibility</li>
+                        <li>Software adapts to your business</li>
+                        <li>Built specifically for your operations</li>
+                        <li>Own your solution with strategic control</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header">
-                <h2>Contact Us</h2>
-                <p>Ready to take your business to the next level? Let's talk!</p>
-            </div>
-            
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>(901) 603-5980</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>cannon@bytesizesoftware.net</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Memphis, TN</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                    <!-- Hidden honeypot field for spam protection -->
-                    <div style="display: none;">
-                        <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                <h2 class="section-title">Ready to Build Your Custom Solution?</h2>
+                <p class="contact-subtitle">Let's discuss how ByteSize can transform your business operations</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="email" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="text" placeholder="Company Name" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone">
+                        <textarea placeholder="Tell us about your needs" rows="5" required></textarea>
                     </div>
-                    <div class="form-group">
-                        <label for="service">Service Interest</label>
-                        <select id="service" name="service">
-                            <option value="">Select a service</option>
-                            <option value="msp">Managed IT Services</option>
-                            <option value="software">Software Development</option>
-                            <option value="consulting">Consulting</option>
-                            <option value="both">Both MSP & Software</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-large">Get Started</button>
                 </form>
             </div>
         </div>
@@ -448,31 +209,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="logo-lg.png" alt="ByteSize, LLC" class="footer-logo-img">
-                    <h3>ByteSize, LLC</h3>
-                    <p>Technology solutions that scale with your business</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#services">Managed IT Services</a></li>
-                            <li><a href="#services">Software Development</a></li>
-                            <li><a href="#services">Consulting</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ByteSize, LLC. All rights reserved.</p>
+                <img src="logo-lg.png" alt="ByteSize" class="footer-logo">
+                <p class="footer-text">Custom software solutions powered by AI</p>
+                <p class="footer-copyright">&copy; 2024 ByteSize. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -480,3 +219,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
