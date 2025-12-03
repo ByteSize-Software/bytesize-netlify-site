@@ -186,12 +186,7 @@
             <div class="contact-content">
                 <h2 class="section-title">Ready to Build Your Custom Solution?</h2>
                 <p class="contact-subtitle">Let's discuss how ByteSize can transform your business operations</p>
-                <form class="contact-form" name="contact" method="POST" netlify data-netlify="true" netlify-honeypot="bot-field">
-                    <!-- Hidden honeypot field for spam protection -->
-                    <input type="hidden" name="form-name" value="contact">
-                    <p style="display: none;">
-                        <label>Don't fill this out if you're human: <input name="bot-field"></label>
-                    </p>
+                <form class="contact-form" name="contact" netlify>
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required>
                     </div>
@@ -199,7 +194,7 @@
                         <input type="email" name="email" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="company" placeholder="Company Name" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group">
                         <textarea name="message" placeholder="Tell us about your needs" rows="5" required></textarea>
