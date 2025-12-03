@@ -52,22 +52,8 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
-// Form submission
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const data = Object.fromEntries(formData);
-        
-        // Here you would typically send this to a backend
-        // For now, we'll just show an alert
-        alert('Thank you for your interest! We\'ll be in touch soon.');
-        contactForm.reset();
-    });
-}
+// Form submission - Let Netlify handle it naturally
+// No JavaScript handler needed - Netlify Forms will process the submission
 
 // Intersection Observer for fade-in animations
 const observerOptions = {
